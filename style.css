@@ -1,0 +1,56 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+    background-image: linear-gradient(
+      115deg,
+      rgba(236, 91, 205, 0.8),
+      rgba(80, 130, 221, 0.7)
+    ),
+    url(https://img.freepik.com/free-photo/galactic-night-sky-astronomy-science-combined-generative-ai_188544-9656.jpg?w=1380&t=st=1729574853~exp=1729575453~hmac=3fa18ac01d95ed9ddab2d7344575ef795e687505e878a60bd7cf4799e04a3cda);
+   
+  background-size: cover;
+  }
+  form{
+    max-width: 500px;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    margin: auto;
+  }
+  input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px
+  }
+  .input-element{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  select{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+  }
+
+  label{
+    color: lightskyblue;
+    text-align: center;
+  }
+
+  ::placeholder{
+    text-align: center;
+  }
+
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
